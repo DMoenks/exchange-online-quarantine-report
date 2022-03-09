@@ -12,9 +12,9 @@
    1. Create self-signed certificate
    2. Grant read access for automation account's managed identity to certificate
 3. Create Azure AD application
-   1. Grant application permission _Exchange.ManageAsApp_
+   1. Grant Office 365 Exchange Online application permission _Exchange.ManageAsApp_
    2. Grant Azure AD role _Exchange Administrator_
-   3. Link certificate from key vault
+   3. Attach certificate
 
 ## Links
 - [Azure automation runbook](https://docs.microsoft.com/en-us/azure/automation/quickstarts/create-account-portal)
