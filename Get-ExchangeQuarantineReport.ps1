@@ -9,7 +9,7 @@ param ([Parameter(Mandatory=$true)]
         [bool]$advanced)
 
 $catTranslation = @{'BULK' = 'Bulk';
-                    'DIMP' = 'Domain Impersonation';
+                    'DIMP' = 'Domain impersonation';
                     'GIMP' = 'Mailbox intelligence based impersonation';
                     'HPHSH' = 'High confidence phishing';
                     'HPHISH' = 'High confidence phishing';
@@ -18,7 +18,7 @@ $catTranslation = @{'BULK' = 'Bulk';
                     'PHSH' = 'Phishing';
                     'SPM' = 'Spam';
                     'SPOOF' = 'Spoofing';
-                    'UIMP' = 'User Impersonation';
+                    'UIMP' = 'User impersonation';
                     'AMP' = 'Anti-malware';
                     'SAP' = 'Safe attachments';
                     'OSPM' = 'Outbound spam'}
@@ -30,7 +30,7 @@ $sfvTranslation = @{'BLK' = 'Blocked, mailbox blocked sender';
                     'SKB' = 'Blocked, global blocked sender';
                     'SKI' = 'Skipped, intra-organization';
                     'SKN' = 'Skipped, transport rule';
-                    'SKQ' = 'Quarantine Release';
+                    'SKQ' = 'Quarantine release';
                     'SKS' = 'Spam, transport rule';
                     'SPM' = 'Spam, spam filtering'}
 
